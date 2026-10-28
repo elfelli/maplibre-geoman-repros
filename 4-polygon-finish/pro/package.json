@@ -1,0 +1,11 @@
+{
+  "name": "geoman-repro-polygon-finish-pro",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "check": "node check.mjs" },
+  "dependencies": {
+    "@geoman-io/maplibre-geoman-pro": "0.13.2",
+    "maplibre-gl": "6.14.0"
+  },
+  "devDependencies": { "playwright-core": "1.61.1", "vite": "6.4.4" }
+}
