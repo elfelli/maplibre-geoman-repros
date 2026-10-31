@@ -38,7 +38,8 @@ map.on('gm:loaded', async () => {
   log('importGeoJson, no hole:', plain.stats);
   const id = plain.addedFeatures[0].id;
   try {
-    log('edit.addHole resolved:', await gm.edit.addHole(id, hole));
+    const result = await gm.edit.addHole(id, hole);
+    log('edit.addHole resolved:', { ok: result.ok, reason: result.reason });
   } catch (error) {
     log('edit.addHole rejected:', error.message);
   }

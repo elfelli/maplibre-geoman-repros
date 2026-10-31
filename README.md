@@ -14,6 +14,7 @@ Small runnable projects for issues reported on [geoman-io/maplibre-geoman](https
 | `6-auto-trace` | auto trace merges close vertices and drops the last traced section | Pro 0.13.2 |
 | `7-import-rewind` | `importGeoJson` reverses some LineStrings depending on their position | free 0.10.2 |
 | `8-snapping-layer-targets` | snapping to a GeoJSON layer target doesn't keep the source vertex coordinates | Pro 0.13.2 |
+| `9-large-polygon-drag` | dragging a vertex of a large polygon: the map catches up with a delay that grows with the vertex count | free 0.10.4 |
 
 The checks need an installed Google Chrome, or a Chromium executable given through `CHROME_PATH` (`playwright-core` doesn't download a browser).
 
