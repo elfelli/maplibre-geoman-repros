@@ -2,10 +2,18 @@
   "name": "geoman-repro-large-polygon-drag",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "vite", "check": "node check.mjs" },
+  "scripts": {
+    "dev": "vite",
+    "check": "node check.mjs",
+    "profile": "node profile.mjs",
+    "source-bench": "node source-bench.mjs"
+  },
   "dependencies": {
     "@geoman-io/maplibre-geoman-free": "0.10.4",
     "maplibre-gl": "6.14.0"
   },
-  "devDependencies": { "playwright-core": "1.61.1", "vite": "6.4.4" }
+  "devDependencies": {
+    "playwright-core": "1.61.1",
+    "vite": "6.4.4"
+  }
 }
