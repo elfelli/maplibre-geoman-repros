@@ -16,6 +16,7 @@ Small runnable projects for issues reported on [geoman-io/maplibre-geoman](https
 | `8-snapping-layer-targets` | snapping to a GeoJSON layer target doesn't keep the source vertex coordinates | Pro 0.13.2 |
 | `9-large-polygon-drag` | dragging a vertex of a large polygon: the map catches up with a delay that grows with the vertex count | free 0.10.4 |
 | `10-drag-release-over-overlay` | releasing a vertex drag over an element laid over the map (app toolbar, Geoman control) leaves the edit stuck | free 0.10.4 |
+| `11-large-polygon-vertex-marker` | dragging a vertex of a large polygon: the vertex marker stays at the drag start | free 0.10.7 |
 
 The checks need an installed Google Chrome, or a Chromium executable given through `CHROME_PATH` (`playwright-core` doesn't download a browser).
 
