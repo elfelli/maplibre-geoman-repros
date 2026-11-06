@@ -18,6 +18,7 @@ Small runnable projects for issues reported on [geoman-io/maplibre-geoman](https
 | `10-drag-release-over-overlay` | releasing a vertex drag over an element laid over the map (app toolbar, Geoman control) leaves the edit stuck | free 0.10.4 |
 | `11-large-polygon-vertex-marker` | dragging a vertex of a large polygon: the vertex marker stays at the drag start | free 0.10.7 |
 | `12-validate-geometry-drag` | `validateGeometry`: a vertex drag that makes the ring cross itself throws uncaught errors | Pro 0.13.7 |
+| `13-large-polygon-release-edge-markers` | releasing a vertex drag on a large polygon after the map moved sends every edge marker again | free 0.10.8 |
 
 The checks need an installed Google Chrome, or a Chromium executable given through `CHROME_PATH` (`playwright-core` doesn't download a browser).
 
